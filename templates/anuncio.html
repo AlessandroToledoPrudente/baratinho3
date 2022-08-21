@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="../static/css/bootstrap.css"
+    <title>B A R A T I N H O - {{titulo}}</title>
+    <div id="home">
+        <br>
+        <a href={{url_for("index")}}>Página Inicial</a>
+        <br>
+    </div>
+</head>
+<body>
+    <div>
+        <br>
+        <h2>O que você quer fazer?</h2>
+        <div id="escolha">
+            <ul id="atalhos">
+                <li><a href={{url_for("comprar")}}>Quero comprar</a></li>  
+                <li><a href={{url_for("vender")}}>Quero vender</a></li> 
+            </ul>
+        </div>
+        <br>
+    </div>  
+</body>
+<footer>
+    <div>
+        <p>Copyright © 2022</p>
+    </div>
+</footer>
+</html>
